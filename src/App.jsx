@@ -1,11 +1,11 @@
+import { Calculator } from "./Components/Calculator"
 
-function App() {
+export const App=()=> {
 
   return (
     <div className="App">
-          <h1>Hello world</h1>
+          <Calculator/>
+          {/* <h1>Hello world</h1> */}
     </div>
   )
 }
-
-export default App
